@@ -1,0 +1,1 @@
+print "Hello, I am Dilbert 1.0 and I am a virtual manager. Since I am a computer program, the engineers who wrote me made me appear smarter than an average corporate manager. But don't be fooled! I am as stupid as any other manager!"
