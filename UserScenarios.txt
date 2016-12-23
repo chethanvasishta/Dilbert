@@ -1,0 +1,29 @@
+User Scenarios for Dilbert:
+
+Let's take the meeting scenarios
+
+1. Schedule a meeting
+	- Necessary Inputs
+		- Attendees
+			- Need to ask for full name if it can't find the appropriate one
+			- Need to remember the most frequent
+		- Time
+			- Can be vague like this week, month etc.
+		- Subject
+			- 
+	- Optional
+		- Setup in a different timezone
+	- Action
+		- Should understand the timezones for each attendee, figure out the best time in the calendar and schedule a meeting
+			- This also requires people mark their calendar with vacation dates, usual office in and out time etc. 
+	
+	Example:
+	- (Simplest) Schedule a meeting with [Attendees separated by , or and] at [time] [to discuss/subject]
+	- I want to meet xyz tomorrow [at time]
+	- Let's meet xyz tomorrow
+	- Let's discuss [topic] with xyz [time]
+			
+Big Picture Thoughts
+
+1. There needs to be a centralized server running that's like a virtual manager. It should be ideally a person.
+2. It needs to learn the personalities of people who are using it. This will be useful to know their availability in office for various things like scheduling meetings, preferred meeting rooms, frequently contacted people, projects working on (for better speech recognition) etc.
